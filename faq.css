@@ -1,0 +1,111 @@
+/* FAQ Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+    color: #ffffff;
+    font-family: 'Cascadia Code', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    padding: 40px 20px;
+    overflow-x: hidden; /* allow vertical scroll if needed */
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+}
+
+.logo {
+    width: 102px;
+    height: 102px;
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+.faq-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.faq-subheading {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+.faq-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #cccccc;
+    line-height: 1.7;
+}
+
+.faq-question {
+    margin-top: 25px;
+    background-color: #1a1a1a;
+    padding: 15px 20px;
+    border-left: 4px solid #ffffff;
+    border-radius: 6px;
+}
+
+.faq-question h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.faq-question p {
+    font-size: 1rem;
+    color: #cccccc;
+    margin: 0;
+}
+
+.faq-footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #777777;
+}
+
+.back-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Fade-in effect for FAQ page */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
