@@ -22,8 +22,8 @@ body {
 .logo {
     width: 102px;
     height: 102px;
+    margin: 0 auto 30px;
     display: block;
-    margin: 0 auto 30px auto;
 }
 
 .faq-title {
